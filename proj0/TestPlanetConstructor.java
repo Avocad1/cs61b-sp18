@@ -53,9 +53,7 @@ public class TestPlanetConstructor {
                mass = 5.0;
 
         String imgFileName = "jupiter.gif";
-
         Planet p = new Planet(xxPos, yyPos, xxVel, yyVel, mass, imgFileName);
-
         checkEquals(xxPos, p.xxPos, "xxPos");
         checkEquals(yyPos, p.yyPos, "yyPos");
         checkEquals(xxVel ,p.xxVel, "xxVel");
