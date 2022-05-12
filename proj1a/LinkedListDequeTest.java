@@ -30,11 +30,10 @@ public class LinkedListDequeTest {
 	}
 
 	public static void addRemoveTest() {
-
 		System.out.println("Running add/remove test.");
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args){
 		System.out.println("Running tests.\n");
 		addIsEmptySizeTest();
 		addRemoveTest();
